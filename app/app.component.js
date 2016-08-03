@@ -15,6 +15,8 @@ var core_1 = require('@angular/core');
 var router_1 = require('@angular/router');
 // custom component/directive imports
 var hero_service_1 = require('./hero.service');
+// Add the RxJS Observable operators we need in this app.
+require('./rxjs-operators');
 require('./rxjs-extensions');
 /* The imports below are not necessary to run the app, but there was a
    warning in the browser console and all disscussions and documents that I

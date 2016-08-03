@@ -4,10 +4,11 @@
 // Imports for loading & configuring the in-memory web api
 import { XHRBackend } from '@angular/http';
 
-// import { InMemoryBackendService, SEED_DATA } from 'angular2-in-memory-web-api';
-import { InMemoryBackendService, SEED_DATA } from '../node_modules/angular2-in-memory-web-api';
+import { InMemoryBackendService,
+         SEED_DATA } from 'angular2-in-memory-web-api';
+// import { InMemoryBackendService, SEED_DATA } from '../node_modules/angular2-in-memory-web-api';
 
-import { InMemoryDataService }               from './in-memory-data.service';
+import { InMemoryDataService }    from './in-memory-data.service';
 
 // imports //
 import { bootstrap }    from '@angular/platform-browser-dynamic';

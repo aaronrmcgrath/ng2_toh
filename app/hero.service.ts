@@ -7,6 +7,7 @@ import { Headers, Http } from '@angular/http';
 import 'rxjs/add/operator/toPromise';
 
 import { Hero } from './hero';
+import { InMemoryDataService } from './in-memory-data.service';
 
 @Injectable()
 export class HeroService {

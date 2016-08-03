@@ -7,6 +7,8 @@ import { ROUTER_DIRECTIVES } from '@angular/router';
 
 // custom component/directive imports
 import { HeroService } from './hero.service';
+// Add the RxJS Observable operators we need in this app.
+import './rxjs-operators';
 import './rxjs-extensions';
 
 /* The imports below are not necessary to run the app, but there was a

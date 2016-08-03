@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 import { Hero } from './hero';
+import { InMemoryDataService } from './in-memory-data.service';
 import { HeroService } from './hero.service';
 
 @Component({
